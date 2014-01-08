@@ -148,7 +148,7 @@ e.bind('<KeyPress-Return>',evtSend) # lier l'event sur appui de la touche Retour
 
 def addMsg(p):
     #fonction pour l'ajout des message dans la zone de texte
-    tx.insert(INSERT,"\n("+p[IP].src+") "+p[Raw].load)
+    tx.insert(END,"\n("+p[IP].src+") "+p[Raw].load)
     tx.yview_scroll(1,"pages")
 
 # preparation du thread de reception des paquet icmp 
