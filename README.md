@@ -1,7 +1,8 @@
 PingMonitor
 ===========
 
-A Python software using Tkinter and scapy, so install theses and check that you can use it.
+A Python software using Tkinter and scapy, so install these and check that you can use it.
+Note : To use these use python2.6
 
 This software as the aim to provide an interface to show data contained in ping, and to send that kind of packets.
 
